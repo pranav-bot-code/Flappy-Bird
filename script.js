@@ -33,7 +33,7 @@ scene("main", () => {
     body(), // implements gravity on the object
   ])
 
-  keyPress("space", () => {
+  onClick(() => {
     bird.jump(JUMP_FORCE)
   })
 
